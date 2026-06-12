@@ -17,8 +17,8 @@
 % adjust the page margins
 \usepackage[scale=0.75]{geometry}
 %\usepackage{url}
-%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
-%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+\setlength{\hintscolumnwidth}{2cm}                % if you want to change the width of the column with the dates
+% \setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
 
 % personal data
 \name{Thotino}{GOBIN-GANSOU}
@@ -61,35 +61,36 @@
 \makecvtitle
 \vspace*{-2.5\baselineskip}
 \section{Expériences professionnelles}
-\cventry{01/2023--07/2026}{Développeur backend
+\cventry{2023--2026}{Développeur backend
 	NodeJS}{\textsc{Sensefuel}}{Villeneuve d'Ascq}{}{
+	Contribution active au développement et à la maintenance de solutions logicielles.
 	\begin{itemize}
 		\item Développement d'outils de recherche et de recommendation de
-		      produits
+		      produits à destination d'acteurs du e-commerce
 		\item Développement du funnel d'ingestion de catalogues produits au format Google Shopping
 		\item Refonte de services de recherche produits
-		\item Animation de workshops techniques
+		\item Animation des équipes autour de sujets techniques
 	\end{itemize}
 }
 
-\cventry{06/2020--01/2023}{Développeur backend NodeJS}{\textsc{Invaders Corp.}}{Paris}{}{
+\cventry{2020--2023}{Développeur backend NodeJS}{\textsc{Invaders Corp.}}{Paris}{}{
 	\begin{itemize}
 		\item Conception et développement de diverses fonctionnalités
-		      backend pour les applications mobiles LALALAB et MYPHOTOWEB
-		\item Migration de la stack historique précédemment codé en PHP
+		      backend pour les applications mobiles \textit{LALALAB} et \textit{MYPHOTOWEB}
+		\item Migration de la stack monolithique historique vers une architecture en microservices
 	\end{itemize}
 }
 
-\cventry{07/2016--06/2020}{Développeur backend
+\cventry{2016--2020}{Développeur backend
 	NodeJS}{\textsc{Cybeletech}}{Montrouge}{}{
 	\begin{itemize}
 		\item Développement de nombreux projets logiciels à destination
 		      des acteurs du monde agricole
-		\item Développement d'outils de traitement, d'analyse et
-		      d'archivage de données agricoles
+		% \item Développement d'outils de traitement, d'analyse et
+		%       d'archivage de données agricoles
 		\item Développement d'APIs et de services web de type REST
 		\item Communication autour des outils développés par
-		      l'entreprise : exposant au SIMA et au VIVATECH à Paris.
+		      l'entreprise : exposant au VIVATECH
 	\end{itemize}
 }
 
@@ -104,21 +105,22 @@
 	mécatronique et génie-électrique}
 
 \section{Langues}
-\cvitemwithcomment{\underline{Anglais}}{Bon niveau à l'écrit et à l'oral}{TOEIC
-	: 780 points}
-\cvitemwithcomment{\underline{Français}}{Bon niveau à l'écrit et à
-	l'oral}{Langue maternelle}
+\cvitemwithcomment{\underline{Anglais}}{}{Niveau professionnelle}
+\cvitemwithcomment{\underline{Français}}{}{Langue maternelle}
 
 \section{Compétences informatiques}
-\cvitem{\underline{Développement}}{JavaScript/TypeScript, NodeJS, Python}
+\cvitem{\underline{Languages et frameworks}}{JS/TS, NodeJS, Fastify, Express, Moleculer, Python}
+\cvitem{\underline{Databases et search}}{Couchbase, Elasticsearch, SQL, Redis}
+\cvitem{\underline{Cloud et DevOps}}{GCP, AWS, Cloud Run, Kubernetes Autopilot}
 
 % \cvitem{}
-\cvdoubleitem{\underline{IDEs}}{Cursor, VSCode, DBeaver}{\underline{Frameworks}}{Fastify, Express, Moleculer}
-\cvdoubleitem{\underline{Testing}}{Vitest, Jest}{\underline{Cloud}}{GCP, AWS}
-\cvdoubleitem{\underline{OS}}{Ubuntu, Debian}{\underline{Infra}}{Cloud Run, Kubernetes Autopilot}
-\cvdoubleitem{\underline{BDDs}}{Couchbase, Elasticsearch, PostgreSQL, Redis}{\underline{ORMs}}{Sequelize}
+% \cvdoubleitem{\underline{IDEs}}{Cursor, VSCode, DBeaver}{\underline{Frameworks}}{Fastify, Express, Moleculer}
+% \cvdoubleitem{\underline{Testing}}{Vitest, Jest}{\underline{Cloud}}{GCP, AWS}
+% \cvdoubleitem{\underline{OS}}{Ubuntu, Debian}{\underline{Infra}}{Cloud Run, Kubernetes Autopilot}
+% \cvdoubleitem{\underline{BDDs}}{Couchbase, Elasticsearch, SQL, Redis}{\underline{ORMs}}{Sequelize}
 \section{Divers}
 \cvlistitem{Pratique sportive régulière (natation, arts martiaux)}
+\cvlistitem{Intérêt pour la culture et les voyages}
 
 %\clearpage\end{CJK*}                              % if you are typesetting your resume in Chinese using CJK; the \clearpage is required for fancyhdr to work correctly with CJK, though it kills the page numbering by making \lastpage undefined
 \end{document}
