@@ -1,4 +1,4 @@
-\documentclass[11pt,a4paper,sans]{moderncv}
+\documentclass[11.5pt,a4paper,sans]{moderncv}
 % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
 
 % moderncv themes
@@ -22,6 +22,8 @@
 
 % personal data
 \name{Thotino}{GOBIN-GANSOU}
+\firstname{Thotino}
+\lastname{GOBIN-GANSOU}
 \title{Développeur backend NodeJS - 10 ans d'expérience}
 % optional, remove / comment the line if not wanted
 \address{3, avenue de l'Europe}{28630, LE
@@ -60,14 +62,17 @@
 \vspace*{-2.5\baselineskip}
 \section{Expériences professionnelles}
 \cventry{01/2023--07/2026}{Développeur backend
-	NodeJS}{Sensefuel}{Villeneuve d'Ascq}{}{
+	NodeJS}{\textsc{Sensefuel}}{Villeneuve d'Ascq}{}{
 	\begin{itemize}
-		\item Développement d'outils e-commerce et de recommendation de
+		\item Développement d'outils de recherche et de recommendation de
 		      produits
+		\item Développement du funnel d'ingestion de catalogues produits au format Google Shopping
+		\item Refonte de services de recherche produits
+		\item Animation de workshops techniques
 	\end{itemize}
 }
 
-\cventry{06/2020--01/2023}{Développeur backend NodeJS}{Invaders Corp}{Paris}{}{
+\cventry{06/2020--01/2023}{Développeur backend NodeJS}{\textsc{Invaders Corp.}}{Paris}{}{
 	\begin{itemize}
 		\item Conception et développement de diverses fonctionnalités
 		      backend pour les applications mobiles LALALAB et MYPHOTOWEB
@@ -76,7 +81,7 @@
 }
 
 \cventry{07/2016--06/2020}{Développeur backend
-	NodeJS}{CYBELETECH}{Montrouge}{}{
+	NodeJS}{\textsc{Cybeletech}}{Montrouge}{}{
 	\begin{itemize}
 		\item Développement de nombreux projets logiciels à destination
 		      des acteurs du monde agricole
@@ -105,13 +110,13 @@
 	l'oral}{Langue maternelle}
 
 \section{Compétences informatiques}
-\cvitem{\underline{Programmation}}{JavaScript/TypeScript, NodeJS, Python}
-\cvitem{\underline{OS}}{Debian, Ubuntu,}
-\cvitem{\underline{Frameworks}}{Fastify, Express, Moleculer}
-\cvitem{\underline{Autres}}{PosteGreSQL, CouchBase, Redis, ElasticSearch}
+\cvitem{\underline{Développement}}{JavaScript/TypeScript, NodeJS, Python}
 
-%\cvdoubleitem{category 3}{XXX, YYY, ZZZ}{category 6}{XXX, YYY, ZZZ}
-
+% \cvitem{}
+\cvdoubleitem{\underline{IDEs}}{Cursor, VSCode, DBeaver}{\underline{Frameworks}}{Fastify, Express, Moleculer}
+\cvdoubleitem{\underline{Testing}}{Vitest, Jest}{\underline{Cloud}}{GCP, AWS}
+\cvdoubleitem{\underline{OS}}{Ubuntu, Debian}{\underline{Infra}}{Cloud Run, Kubernetes Autopilot}
+\cvdoubleitem{\underline{BDDs}}{Couchbase, Elasticsearch, PostgreSQL, Redis}{\underline{ORMs}}{Sequelize}
 \section{Divers}
 \cvlistitem{Pratique sportive régulière (natation, arts martiaux)}
 
