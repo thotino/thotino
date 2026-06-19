@@ -7,7 +7,7 @@
 \moderncvcolor{blue}
 % color options 'black', 'blue' (default), 'burgundy', 'green', 'grey', 'orange', 'purple' and 'red'
 %\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
-%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
 
 % character encoding
 \usepackage[utf8]{inputenc}
@@ -17,7 +17,7 @@
 % adjust the page margins
 \usepackage[scale=0.75]{geometry}
 %\usepackage{url}
-\setlength{\hintscolumnwidth}{2cm}                % if you want to change the width of the column with the dates
+\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
 % \setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
 
 % personal data
@@ -63,13 +63,17 @@
 \section{Expériences professionnelles}
 \cventry{2023--2026}{Développeur backend
 	NodeJS}{\textsc{Sensefuel}}{Villeneuve d'Ascq}{}{
-	Contribution active au développement et à la maintenance de solutions logicielles.
+	% Contribution active au développement et à la maintenance de solutions logicielles.
+	Développement de solutions logicielles de recherche et de recommendation produits à destination d'acteurs du e-commerce
 	\begin{itemize}
-		\item Développement d'outils de recherche et de recommendation de
-		      produits à destination d'acteurs du e-commerce
-		\item Développement du funnel d'ingestion de catalogues produits au format Google Shopping
-		\item Refonte de services de recherche produits
+		\item Refonte du funnel d'ingestion de catalogues produits (+8 millions références produits)
+		\item Refonte de services de recherche produits (+3 millions requêtes/jour)
 		\item Animation des équipes autour de sujets techniques
+		\begin{itemize}
+			\item Mise en place de bonnes pratiques de clean code
+			\item Tests unitaires, verbosité des services, documentation et tests end to end
+			\item 80\% de réduction des volumes de log des services applicatifs
+		\end{itemize}
 	\end{itemize}
 }
 
@@ -83,14 +87,13 @@
 
 \cventry{2016--2020}{Développeur backend
 	NodeJS}{\textsc{Cybeletech}}{Montrouge}{}{
+	Développement de nombreux projets logiciels à destination d'acteurs du monde agricole
 	\begin{itemize}
-		\item Développement de nombreux projets logiciels à destination
-		      des acteurs du monde agricole
 		% \item Développement d'outils de traitement, d'analyse et
 		%       d'archivage de données agricoles
 		\item Développement d'APIs et de services web de type REST
-		\item Communication autour des outils développés par
-		      l'entreprise : exposant au VIVATECH
+		\item Communication externe autour des outils développés par
+		      l'entreprise (au VIVATECH)
 	\end{itemize}
 }
 
@@ -109,9 +112,9 @@
 \cvitemwithcomment{\underline{Français}}{}{Langue maternelle}
 
 \section{Compétences informatiques}
-\cvitem{\underline{Languages et frameworks}}{JS/TS, NodeJS, Fastify, Express, Moleculer, Python}
-\cvitem{\underline{Databases et search}}{Couchbase, Elasticsearch, SQL, Redis}
-\cvitem{\underline{Cloud et DevOps}}{GCP, AWS, Cloud Run, Kubernetes Autopilot}
+\cvitem{\underline{Dev. \& Frameworks}}{JS/TS, NodeJS, Fastify, Express, Moleculer, Python}
+\cvitem{\underline{Databases \& ORMs}}{SQL, Redis, Couchbase, Elasticsearch, MongoDB, Sequelize, Mongoose}
+\cvitem{\underline{Cloud \& DevOps}}{GCP, AWS, Cloud Run, Kubernetes Autopilot}
 
 % \cvitem{}
 % \cvdoubleitem{\underline{IDEs}}{Cursor, VSCode, DBeaver}{\underline{Frameworks}}{Fastify, Express, Moleculer}
