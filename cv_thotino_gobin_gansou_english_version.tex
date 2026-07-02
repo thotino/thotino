@@ -1,0 +1,121 @@
+\documentclass[11.5pt,a4paper,sans]{moderncv}
+% possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{casual}
+% style options are 'casual' (default), 'classic', 'banking', 'oldstyle' and 'fancy'
+\moderncvcolor{blue}
+% color options 'black', 'blue' (default), 'burgundy', 'green', 'grey', 'orange', 'purple' and 'red'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}
+% if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+%\usepackage{url}
+\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+% \setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{Thotino}{GOBIN-GANSOU}
+\firstname{Thotino}
+\lastname{GOBIN-GANSOU}
+\title{Senior nodeJS backend developer - 10 years of experience}
+% optional, remove / comment the line if not wanted
+\address{3, avenue de l'Europe}{28630, LE
+	COUDRAY}{FRANCE}% optional, remove / comment the line if not wanted; the "postcode city" and "country" arguments can be omitted or provided empty
+\phone[mobile]{+ 33 (0) 658612417}
+% optional, remove / comment the line if not wanted; the optional "type" of the phone can be "mobile" (default), "fixed" or "fax"
+\email{gthomario@yahoo.com}
+% optional, remove / comment the line if not wanted
+%\homepage{www.johndoe.com}                         % optional, remove / comment the line if not wanted
+\social[linkedin]{https://www.linkedin.com/in/thotinothomario/}
+% optional, remove / comment the line if not wanted
+%\social[twitter]{jdoe}                             % optional, remove / comment the line if not wanted
+\social[github]{https://github.com/thotino}
+% optional, remove / comment the line if not wanted
+\extrainfo{34 years old -- Driving license class B}
+% optional, remove / comment the line if not wanted
+%\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{Some quote}                                 % optional, remove / comment the line if not wanted
+
+% bibliography adjustements (only useful if you make citations in your resume, or print a list of publications using BibTeX)
+%   to show numerical labels in the bibliography (default is to show no labels)
+% \makeatletter\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}\makeatother
+%   to redefine the bibliography heading string ("Publications")
+%\renewcommand{\refname}{Articles}
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+\vspace*{-2.5\baselineskip}
+\section{Professional experience}
+\cventry{2023--2026}{Senior NodeJS backend developer}{\textsc{Sensefuel}}{Villeneuve d'Ascq}{}{
+	Developed advanced product search and recommendation tools for major e-commerce players
+	\begin{itemize}
+		\item Refonte du funnel d'ingestion de catalogues produits (+8 millions références produits)
+		\item Refonte de services de recherche produits (+3 millions requêtes/jour)
+		\item Led technical workshops
+		\begin{itemize}
+			\item Mise en place de bonnes pratiques de clean code
+			\item Tests unitaires, verbosité des services, documentation et tests end to end
+			\item 80\% de réduction des volumes de log des services applicatifs
+		\end{itemize}
+	\end{itemize}
+}
+
+\cventry{2020--2023}{NodeJS backend developer}{\textsc{Invaders Corp.}}{Paris}{}{
+	\begin{itemize}
+		\item Designed and built backend features for the \textit{LALALAB} and \textit{MYPHOTOWEB} mobile apps
+		\item Migrated the legacy monolithic stack into a highly scalable microservices architecture
+	\end{itemize}
+}
+
+\cventry{2016--2020}{NodeJS backend developer}{\textsc{Cybeletech}}{Montrouge}{}{
+	Development of numerous software projects and RESTful web APIs for the agricultural sector
+	\begin{itemize}
+		\item Développement d'APIs et de services web de type REST
+		\item Communication externe autour des outils développés par
+		      l'entreprise (au VIVATECH)
+	\end{itemize}
+}
+
+\section{Education \& Qualifications}
+\cventry{2014--2016}{Master's Degree}{Université de
+	Lorraine}{Vandoeuvre-lès-Nancy}{}{Master's Degree in Mathematical Engineering \& Computer science tools}  % arguments 3 to 6 can be left empty
+\cventry{2009--2014}{Engineering Degree}{ESIGELEC}{St
+	Etienne-du-Rouvray}{}{Engineering degree in Mechatronics \& electrical engineering}
+
+\section{Languages}
+\cvitemwithcomment{\underline{English}}{}{Professionally fluent}
+\cvitemwithcomment{\underline{French}}{}{Native speaker}
+
+\section{Technical skills}
+\cvitem{\underline{Languages \& Frameworks}}{JS/TS, NodeJS, Fastify, Express, Moleculer, Python}
+\cvitem{\underline{Databases \& ORMs}}{SQL, Redis, Couchbase, Elasticsearch, MongoDB, Sequelize, Mongoose}
+\cvitem{\underline{Cloud \& DevOps}}{GCP, AWS, Cloud Run, Kubernetes Autopilot}
+
+% \cvitem{}
+% \cvdoubleitem{\underline{IDEs}}{Cursor, VSCode, DBeaver}{\underline{Frameworks}}{Fastify, Express, Moleculer}
+% \cvdoubleitem{\underline{Testing}}{Vitest, Jest}{\underline{Cloud}}{GCP, AWS}
+% \cvdoubleitem{\underline{OS}}{Ubuntu, Debian}{\underline{Infra}}{Cloud Run, Kubernetes Autopilot}
+% \cvdoubleitem{\underline{BDDs}}{Couchbase, Elasticsearch, SQL, Redis}{\underline{ORMs}}{Sequelize}
+\section{Interests \& Miscellaneous}
+\cvlistitem{Sports: regular practice of swimming and martial arts}
+\cvlistitem{Interests: passionate about culture and traveling}
+
+%\clearpage\end{CJK*}                              % if you are typesetting your resume in Chinese using CJK; the \clearpage is required for fancyhdr to work correctly with CJK, though it kills the page numbering by making \lastpage undefined
+\end{document}
+
+%% end of file `template.tex'.
