@@ -1,10 +1,10 @@
-\documentclass[11.5pt,a4paper,sans]{moderncv}
+\documentclass[11pt,a4paper,sans]{moderncv}
 % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
 
 % moderncv themes
+\moderncvcolor{blue}
 \moderncvstyle{casual}
 % style options are 'casual' (default), 'classic', 'banking', 'oldstyle' and 'fancy'
-\moderncvcolor{blue}
 % color options 'black', 'blue' (default), 'burgundy', 'green', 'grey', 'orange', 'purple' and 'red'
 %\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
 \nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
@@ -15,7 +15,7 @@
 %\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
 
 % adjust the page margins
-\usepackage[scale=0.75]{geometry}
+\usepackage[scale=0.82]{geometry}
 %\usepackage{url}
 \setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
 % \setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
@@ -24,7 +24,7 @@
 \name{Thotino}{GOBIN-GANSOU}
 \firstname{Thotino}
 \lastname{GOBIN-GANSOU}
-\title{Développeur back-end sénior NodeJS - 10 ans d'expérience}
+\title{Développeur back-end senior | Node.js / TypeScript | 10 ans d'XP}
 % optional, remove / comment the line if not wanted
 \address{3, avenue de l'Europe}{28630, LE
 	COUDRAY}{FRANCE}% optional, remove / comment the line if not wanted; the "postcode city" and "country" arguments can be omitted or provided empty
@@ -59,12 +59,12 @@
 %\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
 %-----       resume       ---------------------------------------------------------
 \makecvtitle
-\vspace*{-2.5\baselineskip}
+\vspace*{-1.0\baselineskip}
 \section{Expériences professionnelles}
 \cventry{2023--2026}{Développeur back-end
-	NodeJS}{\textsc{Sensefuel}}{Villeneuve d'Ascq}{}{
+	Node.js}{\textsc{Sensefuel}}{Villeneuve d'Ascq}{}{
 	% Contribution active au développement et à la maintenance de solutions logicielles.
-	Développement de solutions logicielles de recherche et de recommendation produits à destination d'acteurs du e-commerce
+	Développement de solutions logicielles de recherche et de recommendation de produits à destination d'acteurs du e-commerce
 	\begin{itemize}
 		\item Refonte du pipeline d'ingestion de catalogues produits (+8 millions références produits)
 		\item Refonte de services de recherche produits (+3 millions requêtes/jour)
@@ -77,23 +77,28 @@
 	\end{itemize}
 }
 
-\cventry{2020--2023}{Développeur back-end NodeJS}{\textsc{Invaders Corp.}}{Paris}{}{
+\cventry{2020--2023}{Développeur back-end Node.js}{\textsc{Invaders Corp.}}{Paris}{}{
 	\begin{itemize}
 		\item Conception et développement de diverses fonctionnalités
 		      back-end pour les applications mobiles \textit{LALALAB} et \textit{MYPHOTOWEB}
-		\item Migration de la stack monolithique historique vers une architecture en microservices
+		\item Migration de la stack monolithique historique vers des systèmes distribués en microservices
+		\begin{itemize}
+			\item Evolution de l'architecture du système de récompense et de cagnottes des utilisateurs
+			\item Découpage du système en services, modélisation des données et choix de leur architecture
+			\item Conception, développement et déploiement des services, monitoring et observabilité
+		\end{itemize}
 	\end{itemize}
 }
 
 \cventry{2016--2020}{Développeur back-end
-	NodeJS}{\textsc{Cybeletech}}{Montrouge}{}{
+	Node.js}{\textsc{Cybeletech}}{Montrouge}{}{
 	Développement de nombreux projets logiciels à destination d'acteurs du monde agricole
 	\begin{itemize}
 		% \item Développement d'outils de traitement, d'analyse et
 		%       d'archivage de données agricoles
-		\item Développement de services et d'APIS RESTful pour la gestion de données agricoles
+		\item Développement de services et d'APIs RESTful pour la gestion de données agricoles
 		\item Communication externe autour des outils développés par
-		      l'entreprise (au VIVATECH)
+		      l'entreprise (au VivaTech)
 	\end{itemize}
 }
 
@@ -108,12 +113,12 @@
 	mécatronique et génie-électrique}
 
 \section{Langues}
-\cvitemwithcomment{\underline{Anglais}}{}{Niveau professionnelle}
+\cvitemwithcomment{\underline{Anglais}}{}{Niveau professionnel}
 \cvitemwithcomment{\underline{Français}}{}{Langue maternelle}
 
 \section{Compétences informatiques}
-\cvitem{\underline{Dev. \& Frameworks}}{JS/TS, NodeJS, Fastify, Express, Moleculer, Python, Cursor}
-\cvitem{\underline{Databases \& ORMs}}{SQL, Redis, Couchbase, Elasticsearch, MongoDB, Sequelize, Mongoose}
+\cvitem{\underline{Dev. \& Frameworks}}{JS/TS, Node.js, Fastify, Express, Moleculer, Python, Cursor}
+\cvitem{\underline{Databases \& ORMs}}{SQL (PostgreSQL), Redis, Couchbase, Elasticsearch, MongoDB, Sequelize, Mongoose}
 \cvitem{\underline{Cloud \& DevOps}}{GCP, AWS, Cloud Run, Kubernetes Autopilot}
 % \cvitem{\underline{Editeurs}}{Cursor, VSCode + Copilot, DBeaver}
 
