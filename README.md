@@ -23,8 +23,8 @@ I'm Thotino. Here are few informations about me:
 
 | Project                | Description                                         | Stack                                                   |
 | ---------------------- | --------------------------------------------------- | ------------------------------------------------------ |
-| [Currency conversion app](https://github.com/thotino/currency-conversion-app) | Currency conversion application with quote generation, conversion order creation, submission and follow-up. | Node.js, Typescript, NestJS, Vitest, Docker |
-| [Node resilient client](https://github.com/thotino/node-resilient-client)  | A library that provides a client that implements the resilience patterns such as `Retry`, `Bulkhead`, `Timeout`, `CircuitBreaker` and `RateLimit`. | Node.js, Typescript, Vitest  |
+| 💶 [Currency conversion app](https://github.com/thotino/currency-conversion-app) | Currency conversion application with quote generation, conversion order creation, submission and follow-up. | Node.js, Typescript, NestJS, Vitest, Docker |
+| 🔌 [Node resilient client](https://github.com/thotino/node-resilient-client)  | A library that provides a client that implements the resilience patterns such as `Retry`, `Bulkhead`, `Timeout`, `CircuitBreaker` and `RateLimit`. | Node.js, Typescript, Vitest  |
 
 </div>
 
